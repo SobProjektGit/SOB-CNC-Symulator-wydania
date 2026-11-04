@@ -1,4 +1,4 @@
-503607417e56772fb5b01f03e21ed5ffb1bcf2f0ac0da96738a48d8f0aa5c6b0  SOB-CNC-Symulator-Setup-1.7.2.exe
-b140be95bd5f125dd9e0b58c0c624807f06036ef6467b605ce76fe2668e744df  SOB-CNC-Symulator-Setup-1.7.2.exe.czesc00
-22499db75913451307c4a710bdc4c528f93022a6a10bfb9ee72fce9ac5d2b7e5  SOB-CNC-Symulator-Setup-1.7.2.exe.czesc01
-19f663affd0070a6ba658b735182dcc33cec73268bd6e0c6f756e5847cbcabbc  SOB-CNC-Symulator-Setup-1.7.2.exe.czesc02
+5ab2daf105dea6307afbe4d4803c2fa9dd17db5df0fb444caa2cd39413d1be87  SOB-CNC-Symulator-Setup-1.8.0.exe
+cf49f319a513d0ee08b1361a7433a75be993c6fcb3120eca0ed823ba6c698acc  SOB-CNC-Symulator-Setup-1.8.0.exe.czesc00
+4f5ae7d6e32dd12bbe62f79edf0c0317090e36544e8afe2d1b0bc6cacde71f7f  SOB-CNC-Symulator-Setup-1.8.0.exe.czesc01
+6572d1b9907fe096043fa4f42d5f243e547b2681db77d400a25f1ac3dd9a0acf  SOB-CNC-Symulator-Setup-1.8.0.exe.czesc02

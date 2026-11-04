@@ -1,29 +1,30 @@
 {
   "app": "SOB - CNC Symulator",
-  "version": "1.7.2",
-  "date": "2026-11-02",
+  "version": "1.8.0",
+  "date": "2026-11-04",
   "notes": [
-    "Poprawki bezpieczeństwa: program wczytuje tylko własne pliki interfejsu (bez dostępu do sąsiednich folderów), okno nie przechodzi na obce strony, a z programu otwiera się w przeglądarce tylko strona wydań na GitHubie",
-    "Poprawki bezpieczeństwa: aktualizacja pobiera instalator tylko z oficjalnego repozytorium wydań i przed uruchomieniem sprawdza sumę kontrolną każdej części i całego instalatora"
+    "Wstążka ZMIERZ pod górnym paskiem (jak w SOB - DWG Viewer): współrzędne punktu, odległość punkt–punkt (z ΔX ΔY ΔZ), odległość ścian (grubość, głębokość, szerokość kieszeni), promień i średnica z 3 punktów na łuku, kąt, wyczyść",
+    "Pomiary na materiale i modelu, przyciąganie do wierzchołków modelu; współrzędne w układzie bieżącego mocowania (jak w programie)",
+    "Wyniki na widoku i w panelu obok kostki, przycisk ⧉ kopiuje wartość z przecinkiem (do Excela); Esc kończy pomiar"
   ],
-  "file": "SOB-CNC-Symulator-Setup-1.7.2.exe",
-  "size": 107739507,
-  "sha256": "503607417e56772fb5b01f03e21ed5ffb1bcf2f0ac0da96738a48d8f0aa5c6b0",
+  "file": "SOB-CNC-Symulator-Setup-1.8.0.exe",
+  "size": 107723719,
+  "sha256": "5ab2daf105dea6307afbe4d4803c2fa9dd17db5df0fb444caa2cd39413d1be87",
   "parts": [
     {
-      "name": "SOB-CNC-Symulator-Setup-1.7.2.exe.czesc00",
+      "name": "SOB-CNC-Symulator-Setup-1.8.0.exe.czesc00",
       "size": 41943040,
-      "sha256": "b140be95bd5f125dd9e0b58c0c624807f06036ef6467b605ce76fe2668e744df"
+      "sha256": "cf49f319a513d0ee08b1361a7433a75be993c6fcb3120eca0ed823ba6c698acc"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.7.2.exe.czesc01",
+      "name": "SOB-CNC-Symulator-Setup-1.8.0.exe.czesc01",
       "size": 41943040,
-      "sha256": "22499db75913451307c4a710bdc4c528f93022a6a10bfb9ee72fce9ac5d2b7e5"
+      "sha256": "4f5ae7d6e32dd12bbe62f79edf0c0317090e36544e8afe2d1b0bc6cacde71f7f"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.7.2.exe.czesc02",
-      "size": 23853427,
-      "sha256": "19f663affd0070a6ba658b735182dcc33cec73268bd6e0c6f756e5847cbcabbc"
+      "name": "SOB-CNC-Symulator-Setup-1.8.0.exe.czesc02",
+      "size": 23837639,
+      "sha256": "6572d1b9907fe096043fa4f42d5f243e547b2681db77d400a25f1ac3dd9a0acf"
     }
   ]
 }

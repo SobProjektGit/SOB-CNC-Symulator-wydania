@@ -2,7 +2,7 @@
 
 Symulator programów Heidenhain iTNC 530 (Klartext) – SOB-PROJEKT. To repozytorium zawiera tylko instalatory; kod źródłowy jest w repozytorium prywatnym.
 
-**Aktualna wersja: 1.7.2** (2026-11-02)
+**Aktualna wersja: 1.8.0** (2026-11-04)
 
 ## Pobierz
 
@@ -21,6 +21,12 @@ Od wersji 1.5.0 program sam sprawdza aktualizacje przy uruchomieniu i instaluje 
 Pliki `.czescNN`, `latest.json` i `sha256.txt` w repozytorium są dla mechanizmu aktualizacji w programie (GitHub nie przyjmuje w repozytorium plików powyżej 100 MB). Pełny instalator publikuje automatycznie akcja „Wydanie” po każdej nowej wersji.
 
 ## Zmiany
+
+### 1.8.0 (2026-11-04)
+
+- Wstążka ZMIERZ pod górnym paskiem (jak w SOB - DWG Viewer): współrzędne punktu, odległość punkt–punkt (z ΔX ΔY ΔZ), odległość ścian (grubość, głębokość, szerokość kieszeni), promień i średnica z 3 punktów na łuku, kąt, wyczyść
+- Pomiary na materiale i modelu, przyciąganie do wierzchołków modelu; współrzędne w układzie bieżącego mocowania (jak w programie)
+- Wyniki na widoku i w panelu obok kostki, przycisk ⧉ kopiuje wartość z przecinkiem (do Excela); Esc kończy pomiar
 
 ### 1.7.2 (2026-11-02)
 
