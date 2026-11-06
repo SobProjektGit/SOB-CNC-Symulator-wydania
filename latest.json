@@ -1,31 +1,32 @@
 {
   "app": "SOB - CNC Symulator",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "date": "2026-11-06",
   "notes": [
-    "Cofnij / Ponów: Ctrl+Z cofa ostatnią operację, Ctrl+X (także Ctrl+Y) przywraca cofniętą",
-    "Historia ostatnich 50 operacji (przycisk z zegarem): podgląd listy i przejście do dowolnego stanu jednym kliknięciem",
-    "Zapamiętywane: dodanie/usunięcie programu, kolejność mocowań, edycja programu, ustawienie detalu i baza, czoło, szczęki, widoczność ścieżek, wczytanie/obrót/usunięcie modelu",
-    "Każda zakładka projektu ma własną historię; w edytorze programu i w polach liczb Ctrl+Z/Ctrl+X działają jak zwykle w tekście"
+    "Skróty klawiszowe do ustawienia (Ustawienia → Skróty klawiszowe): każde polecenie programu (pliki, zakładki, cofnij/ponów, widoki, wyświetlanie, symulacja, pomiary, ustawienia) może mieć do 4 skrótów; wyszukiwanie, ostrzeżenie o zajętym skrócie, przywracanie domyślnych",
+    "Dotychczasowe skróty bez zmian (Spacja, strzałki, Home, End, F, Ctrl+S, Ctrl+O, Ctrl+T, Ctrl+Enter, Ctrl+Z, Ctrl+X/Ctrl+Y); nowe: widoki pod cyframi jak w SOB - CAD Viewer (1 Przód, 3 Góra, 4 Spód, 6 Bok, 7 Izo), pomiary P, D, S, R, K, Del, Ctrl+Tab / Ctrl+Shift+Tab – następna/poprzednia zakładka",
+    "Menu okrągłe jak w NX: przytrzymaj środkowy przycisk myszy bez ruchu w widoku 3D – 8 poleceń wokół kursora (Izo, Przód, Pokaż całość, Do narzędzia, Zrzut PNG, Start/pauza, Góra, Odległość); zawartość i opóźnienie do ustawienia, ruch przed otwarciem = zwykły obrót",
+    "Nowe polecenie „Pokaż całość” (cały półfabrykat w kadrze bez zmiany kierunku patrzenia)",
+    "Podpowiedzi przycisków pokazują aktualne skróty; pod oknem Ustawień skróty nie działają"
   ],
-  "file": "SOB-CNC-Symulator-Setup-1.9.0.exe",
-  "size": 107756070,
-  "sha256": "c671afdbf32c03f2cfe14508f01f3293d0d1c202293332dda4293b79a762a826",
+  "file": "SOB-CNC-Symulator-Setup-1.10.0.exe",
+  "size": 107776987,
+  "sha256": "ad76bec6f818794cc427584fb855f5996a0d53d3eae54f880709f988f0251941",
   "parts": [
     {
-      "name": "SOB-CNC-Symulator-Setup-1.9.0.exe.czesc00",
+      "name": "SOB-CNC-Symulator-Setup-1.10.0.exe.czesc00",
       "size": 41943040,
-      "sha256": "fd8ccc8e58685a25e6816b6274375d9159c93db448c03999bec3c2bf88716c9f"
+      "sha256": "ad03435cdeceb95b667aa21f33caab5d1be2be90d570c17cfcf6d73f4de33c61"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.9.0.exe.czesc01",
+      "name": "SOB-CNC-Symulator-Setup-1.10.0.exe.czesc01",
       "size": 41943040,
-      "sha256": "079fbc8b28b64d66177266751758d08869653980318e1529992745eb3bb8207f"
+      "sha256": "761ca9fb8dcac08ec6c48400ac9f5544eaea6fe0047ccb0b4995dc423b864df9"
     },
     {
-      "name": "SOB-CNC-Symulator-Setup-1.9.0.exe.czesc02",
-      "size": 23869990,
-      "sha256": "b76f645027c7572c9655543cbc324fe1567fe64cd8ee0fb5d050b17374c2ba7b"
+      "name": "SOB-CNC-Symulator-Setup-1.10.0.exe.czesc02",
+      "size": 23890907,
+      "sha256": "7295b3357af4c745bcc4f6c9b593e9022f979ae52b2a6ed983e912e47016024b"
     }
   ]
 }

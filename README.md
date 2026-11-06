@@ -2,7 +2,7 @@
 
 Symulator programów Heidenhain iTNC 530 (Klartext) – SOB-PROJEKT. To repozytorium zawiera tylko instalatory; kod źródłowy jest w repozytorium prywatnym.
 
-**Aktualna wersja: 1.9.0** (2026-11-06)
+**Aktualna wersja: 1.10.0** (2026-11-06)
 
 ## Pobierz
 
@@ -21,6 +21,14 @@ Od wersji 1.5.0 program sam sprawdza aktualizacje przy uruchomieniu i instaluje 
 Pliki `.czescNN`, `latest.json` i `sha256.txt` w repozytorium są dla mechanizmu aktualizacji w programie (GitHub nie przyjmuje w repozytorium plików powyżej 100 MB). Pełny instalator publikuje automatycznie akcja „Wydanie” po każdej nowej wersji.
 
 ## Zmiany
+
+### 1.10.0 (2026-11-06)
+
+- Skróty klawiszowe do ustawienia (Ustawienia → Skróty klawiszowe): każde polecenie programu (pliki, zakładki, cofnij/ponów, widoki, wyświetlanie, symulacja, pomiary, ustawienia) może mieć do 4 skrótów; wyszukiwanie, ostrzeżenie o zajętym skrócie, przywracanie domyślnych
+- Dotychczasowe skróty bez zmian (Spacja, strzałki, Home, End, F, Ctrl+S, Ctrl+O, Ctrl+T, Ctrl+Enter, Ctrl+Z, Ctrl+X/Ctrl+Y); nowe: widoki pod cyframi jak w SOB - CAD Viewer (1 Przód, 3 Góra, 4 Spód, 6 Bok, 7 Izo), pomiary P, D, S, R, K, Del, Ctrl+Tab / Ctrl+Shift+Tab – następna/poprzednia zakładka
+- Menu okrągłe jak w NX: przytrzymaj środkowy przycisk myszy bez ruchu w widoku 3D – 8 poleceń wokół kursora (Izo, Przód, Pokaż całość, Do narzędzia, Zrzut PNG, Start/pauza, Góra, Odległość); zawartość i opóźnienie do ustawienia, ruch przed otwarciem = zwykły obrót
+- Nowe polecenie „Pokaż całość” (cały półfabrykat w kadrze bez zmiany kierunku patrzenia)
+- Podpowiedzi przycisków pokazują aktualne skróty; pod oknem Ustawień skróty nie działają
 
 ### 1.9.0 (2026-11-06)
 
